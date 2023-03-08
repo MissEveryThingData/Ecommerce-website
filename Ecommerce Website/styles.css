@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --heading : #393A56;
+    --text : #7E7F85;
+    --theme :#FD5353;
+    --bg : #F7F8F9;
+    --footerBg : #385994;
+}
+
+body {
+    font-family: 'poppins';
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5 {
+    color: var(--heading);
+}
+p {
+    color: var(--text);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: var(--bg);
+    width: 80%;
+    margin: auto;
+    height: 90vh;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+.navlinks {
+    display:flex;
+    align-items: center;
+}
+.navlinks li {
+    margin:0 20px;
+}
+.navlinks img {
+    width: 50px;
+}
+.navlinks li a {
+    color: var(--heading);
+}
+.header-content {
+    display: flex;
+    background: pink;
+}
+.header-content img {
+    max-width: 90%;
+}
+.header-info {
+    flex:60%;
+}
+.line {
+    width:150px;
+    height:4px;
+    background: var(--theme);
+    border-radius: 5px;
+}
+.header-info h1 {
+    font-size:50px;
+}
+.header-info h3 , .header-info p{
+    margin: 15x 0;
+}.ctn {
+    padding:10px 16px;
+    background: var(--theme);
+    color:whitesmoke;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+}
+#categories {
+    display:flex;
+    margin-top: 80px auto;
+    justify-content: space-between;
+}
+.category {
+    text-align: center;
+}
+#featured-products {
+    margin: 80px auto;
+}
+.section-info {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+}
+.products {
+    display:flex;
+    justify-content: space-between;
+}
+
+#offer {
+    margin: 80px auto;
+    background: var(--bg);
+}
+#offer .container {
+    display: flex;
+    align-items: center;
+}
+#offer .container img {
+    max-width: 600px;
+}
+.offer-content h1 {
+    font-size: 50px;
+}
+#featured {
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background: var(--footerBg);
+}
+footer p, footer li{
+    color: rgb(180, 43, 89);
+}
+.footer-content {
+    padding: 80px 0;
+    display: flex;
+}
+.footer-content .col {
+    flex:1;
+    margin: 0 20px;
+}
+.copyright {
+    padding:10px 0;
+    text-align: center;
+}
